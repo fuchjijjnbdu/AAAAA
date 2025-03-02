@@ -6,7 +6,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7619017682:AAHbzacMhj9KVNbwJF-rdQag6xwoqwnEu4w')
+bot = telebot.TeleBot('7619017682:AAEMrixQMT4UCzmREBm5nRCbiaJ7_dTuNEg')
 
 # Admin user IDs
 admin_id = {"6437994839"}
@@ -294,7 +294,7 @@ def handle_bgmi(message):
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
 
-            if time > 120:
+            if time > 180:
                 response = "Error: Buy From @RitikXyz099 For More Time"
             else:
                 bgmi_running = True  # Set the bgmi state to running
